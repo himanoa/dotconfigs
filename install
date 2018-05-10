@@ -1,0 +1,2 @@
+#!/bin/sh
+git ls-files | grep -v install | xargs -I + ln -s $(cd $(dirname $0);pwd)/+ $HOME/+
